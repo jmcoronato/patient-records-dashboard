@@ -104,5 +104,4 @@ npm run preview
 ### Architecture notes
 
 - The `use-infinite-patients-query` hook uses `useInfiniteQuery` to merge local patients (only on the first page) with remote ones while avoiding duplicates.
-- `use-patient-handlers` centralizes modal and favorites actions and delegates saving to React Query mutations.
 - Local storage uses a typed `StorageAdapter<T>` to perform safe operations over `localStorage`.
